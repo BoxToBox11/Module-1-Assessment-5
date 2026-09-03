@@ -50,7 +50,7 @@ body{
 
 #main-home{
     margin-top: 120px;
-    min-height: calc(100vh - 160px);
+    height: calc(100vh - 160px);
     display: flex;
     overflow: hidden;
 }

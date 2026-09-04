@@ -209,15 +209,21 @@ textarea{
 }
 
 @media (main-width: 768px) {
+    html, body{
+        height: auto !important;
+        overflow: visible !important;
+    }
+    
     #main-home {
         height: auto !important;
         overflow: visible !important;
+        display: block !important;
         padding-bottom: 60px;
     }
 
     #main-home img{
         width: 100% !important;
         height: auto !important;
-        object-fit: contain !important;
+        object-fit: fill !important;
     }
 }
